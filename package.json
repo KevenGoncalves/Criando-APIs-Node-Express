@@ -1,0 +1,24 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "description": "Api construida na Aula de Construindo Apis com NodeJs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "API",
+    "Express"
+  ],
+  "author": "Keven",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
